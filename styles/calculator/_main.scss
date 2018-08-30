@@ -1,0 +1,46 @@
+.calculator {
+  display: table;
+  width: 100%;
+  max-width: 340px;
+  margin: 50px auto;
+  background-color: #948E95;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0.5px 0.5px 2px 1px (#948E95 - 50), inset -1px -6px 20px 0.1px (#948E95 - 50);
+
+  &__display {
+    display: table;
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 290px;
+    height: 70px;
+    padding: 20px 6px 0 5px;
+    border-radius: 5px;
+    background-color: (#ccc - 20);
+    box-shadow: inset -1px 1.5px 5px 1.1px (#ccc - 100);
+    color: #000;
+
+    &__current-number {
+      position: absolute;
+      top: 10px;
+      right: 5px;
+    }
+
+    &__history {
+      position: absolute;
+      bottom: 10px;
+      right: 5px;
+      max-width: 280px;
+      overflow-x: scroll;
+    }
+  }
+
+  &__pad {
+    padding: 10px 20px;
+
+    &__item {
+      padding: 5px 0;
+    }
+  }
+}

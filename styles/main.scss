@@ -1,0 +1,17 @@
+@import "reset";
+@import "text/main";
+@import "flex/main";
+@import "button/main";
+@import "calculator/main";
+
+body {
+  background: #E0CED0;
+}
+
+.wrapper {
+  margin: 100px auto;
+}
+
+.header {
+  text-align: center;
+}

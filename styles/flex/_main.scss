@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  &__item {
+    width: 100%;
+    flex: 0 1 auto;
+  }
+}
+
+// Direction
+
+.flex {
+
+  &--direction-column {
+    flex-direction: column;
+  }
+}

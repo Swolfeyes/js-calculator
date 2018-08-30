@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.text {
+  font-family: 'Orbitron', sans-serif;
+}
+
+// Size
+
+.text {
+
+  &--small {
+    font-size: 15px;
+  }
+
+  &--medium {
+    font-size: 20px;
+  }
+
+  &--large {
+    font-size: 24px;
+  }
+}

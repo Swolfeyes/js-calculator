@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="build/main.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="text">Javascript Calculator</h1>
+      </div>
+      <div class="calculator">
+        <div class="calculator__display">
+          <div class="calculator__display__current-number">
+            <span class="text text--large"></span>
+          </div>
+          <div class="calculator__display__history">
+            <span class="text text--small"></span>
+          </div>
+        </div>
+        <div class="calculator__pad">
+          <div class="flex flex--direction-column">
+            <div class="flex__item">
+              <div class="flex">
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">7</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">8</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">9</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='operation'>
+                  <button class="button button--black"><span class="text text--medium">x</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="flex__item">
+              <div class="flex">
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">4</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">5</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">6</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='operation'>
+                  <button class="button button--black">-</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="flex__item">
+              <div class="flex">
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">1</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">2</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">3</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='operation'>
+                  <button class="button button--black"><span class="text text--medium">/</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="flex__item">
+              <div class="flex">
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">0</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='num'>
+                  <button class="button button--black"><span class="text text--medium">.</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='operation'>
+                  <button class="button button--black button--large"><span class="text text--medium">+</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="flex__item">
+              <div class="flex">
+                <div class="calculator__pad__item" data-type='function'>
+                  <button class="button button--black button--large"><span class="text text--medium">=</span></button>
+                </div>
+                <div class="calculator__pad__item" data-type='function'>
+                  <button class="button button--red button--large"><span class="text text--medium">AC</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
